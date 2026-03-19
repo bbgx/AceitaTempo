@@ -1,0 +1,113 @@
+{
+  "extensionName": {
+    "message": "AceitaTempo"
+  },
+  "extensionDescription": {
+    "message": "Converts store prices into work time based on your salary and monthly hours."
+  },
+  "optionsEyebrow": {
+    "message": "Settings"
+  },
+  "optionsTitle": {
+    "message": "What does it cost in your time"
+  },
+  "optionsSubtitle": {
+    "message": "Set your salary, monthly workload, and the exchange rule used to turn prices into time."
+  },
+  "popupEyebrow": {
+    "message": "Quick summary"
+  },
+  "popupTitle": {
+    "message": "AceitaTempo"
+  },
+  "popupSubtitle": {
+    "message": "Open the options to adjust your hourly cost reference."
+  },
+  "salaryLabel": {
+    "message": "Monthly salary"
+  },
+  "salaryCurrencyLabel": {
+    "message": "Salary currency"
+  },
+  "monthlyHoursLabel": {
+    "message": "Hours worked per month"
+  },
+  "exchangeModeLabel": {
+    "message": "Exchange mode"
+  },
+  "exchangeModeAuto": {
+    "message": "Automatic"
+  },
+  "exchangeModeManual": {
+    "message": "Manual"
+  },
+  "manualRateLabel": {
+    "message": "Manual USD -> BRL rate"
+  },
+  "manualRateHint": {
+    "message": "Use this only when your salary is in USD and you want to lock the conversion to BRL."
+  },
+  "replacePricesWithHoursLabel": {
+    "message": "Replace prices with work hours"
+  },
+  "replacePricesWithHoursHint": {
+    "message": "Turn it on to hide the price and show only the time needed to buy the product."
+  },
+  "enableExternalSitesLabel": {
+    "message": "Enable on external sites"
+  },
+  "enableExternalSitesHint": {
+    "message": "Turn this on to allow the extension on pages that do not match the internal site heuristic."
+  },
+  "siteBlockTitle": {
+    "message": "Disable sites manually"
+  },
+  "siteBlockHint": {
+    "message": "Use the switches below to turn off the extension for specific stores."
+  },
+  "siteBlockShowMore": {
+    "message": "Show more"
+  },
+  "siteBlockShowLess": {
+    "message": "Show less"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "resetButton": {
+    "message": "Reset to defaults"
+  },
+  "openOptionsButton": {
+    "message": "Open options"
+  },
+  "savedMessage": {
+    "message": "Settings saved."
+  },
+  "savedWithExchangeWarning": {
+    "message": "Settings saved, but the automatic exchange-rate refresh failed."
+  },
+  "resetMessage": {
+    "message": "Settings restored."
+  },
+  "manualRateRequired": {
+    "message": "Enter a manual rate greater than zero."
+  },
+  "hourlyValueLabel": {
+    "message": "Hourly value"
+  },
+  "hoursSummaryValue": {
+    "message": "$1 h"
+  },
+  "manualRateStatus": {
+    "message": "Manual: $1"
+  },
+  "autoRateStatus": {
+    "message": "Automatic: $1 updated at $2"
+  },
+  "autoRateCompact": {
+    "message": "Auto: $1"
+  },
+  "autoRatePending": {
+    "message": "Automatic: waiting for refresh"
+  }
+}

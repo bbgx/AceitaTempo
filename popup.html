@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AceitaTempo</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <section class="card hero">
+        <div class="eyebrow" data-i18n="popupEyebrow"></div>
+        <h1 data-i18n="popupTitle"></h1>
+        <p data-i18n="popupSubtitle"></p>
+      </section>
+
+      <section class="card summary">
+        <div class="summary-row">
+          <span data-i18n="salaryLabel"></span>
+          <strong id="salaryValue">-</strong>
+        </div>
+        <div class="summary-row">
+          <span data-i18n="monthlyHoursLabel"></span>
+          <strong id="hoursValue">-</strong>
+        </div>
+        <div class="summary-row">
+          <span data-i18n="hourlyValueLabel"></span>
+          <strong id="hourlyValue">-</strong>
+        </div>
+        <div class="summary-row">
+          <span data-i18n="exchangeModeLabel"></span>
+          <strong id="exchangeValue">-</strong>
+        </div>
+      </section>
+
+      <section class="card action-card">
+        <button id="openOptions" class="primary" type="button" data-i18n="openOptionsButton"></button>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

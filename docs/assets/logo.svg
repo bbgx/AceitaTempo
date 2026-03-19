@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" width="960" height="256" fill="none" role="img" aria-label="AceitaTempo">
+  <defs>
+    <linearGradient id="aceita-face-logo" x1="56" y1="48" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ECFDF5" />
+      <stop offset="1" stop-color="#D1FAE5" />
+    </linearGradient>
+    <linearGradient id="aceita-tag-logo" x1="154" y1="132" x2="226" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8A6" />
+      <stop offset="1" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(28 28) scale(0.875)">
+    <circle cx="108" cy="108" r="72" fill="url(#aceita-face-logo)" stroke="#0F766E" stroke-width="12" />
+    <circle cx="108" cy="108" r="8" fill="#0F172A" />
+    <path d="M108 108V66" stroke="#0F172A" stroke-width="12" stroke-linecap="round" />
+    <path d="M108 108L144 126" stroke="#0F172A" stroke-width="12" stroke-linecap="round" />
+    <path
+      d="M160 130h40c7.732 0 14 6.268 14 14v40c0 7.732-6.268 14-14 14h-40c-7.732 0-14-6.268-14-14v-40c0-7.732 6.268-14 14-14z"
+      fill="url(#aceita-tag-logo)"
+    />
+    <circle cx="172" cy="142" r="6" fill="#ECFDF5" />
+    <path d="M166 166l12 12 20-24" stroke="#ECFDF5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <text
+    x="262"
+    y="118"
+    fill="#0F172A"
+    font-family="Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="78"
+    font-weight="800"
+    letter-spacing="-2"
+  >
+    Aceita
+  </text>
+  <text
+    x="528"
+    y="118"
+    fill="#10B981"
+    font-family="Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="78"
+    font-weight="800"
+    letter-spacing="-2"
+  >
+    Tempo
+  </text>
+  <text
+    x="264"
+    y="172"
+    fill="#475569"
+    font-family="Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="28"
+    font-weight="600"
+    letter-spacing="0"
+  >
+    Converta preços em horas de trabalho
+  </text>
+</svg>

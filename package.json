@@ -1,0 +1,17 @@
+{
+  "name": "aceita-tempo",
+  "private": true,
+  "scripts": {
+    "build:branding": "node scripts/generate-branding-assets.mjs",
+    "build:store-assets": "node scripts/generate-store-assets.mjs",
+    "build:assets": "npm run build:branding && npm run build:store-assets",
+    "package:zip": "node scripts/package-extension.mjs",
+    "smoke:aliexpress": "node tests/run-aliexpress-fixture.js",
+    "smoke:games": "node tests/run-game-stores-fixture.js",
+    "smoke:sites": "node tests/run-sites-smoke.js",
+    "smoke:cart": "node tests/run-cart-smoke.js"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

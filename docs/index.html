@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AceitaTempo</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: rgba(255, 255, 255, 0.9);
+        --text: #0f172a;
+        --muted: #475569;
+        --line: rgba(15, 23, 42, 0.12);
+        --green: #10b981;
+        --green-dark: #059669;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background:
+          radial-gradient(circle at top, rgba(16, 185, 129, 0.18), transparent 38%),
+          linear-gradient(180deg, #f8fafc 0%, #edf7f4 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 40px 24px 64px;
+      }
+
+      .hero {
+        display: grid;
+        gap: 24px;
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--card);
+        box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .brand img {
+        width: 120px;
+        height: auto;
+      }
+
+      .eyebrow {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--green-dark);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(36px, 6vw, 60px);
+        line-height: 1;
+      }
+
+      .lead {
+        margin: 0;
+        max-width: 62ch;
+        font-size: 18px;
+        line-height: 1.6;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 18px;
+        border-radius: 999px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-1px);
+      }
+
+      .button.primary {
+        background: linear-gradient(135deg, var(--green), var(--green-dark));
+        color: white;
+        box-shadow: 0 12px 24px rgba(16, 185, 129, 0.24);
+      }
+
+      .button.secondary {
+        background: rgba(15, 23, 42, 0.04);
+        color: var(--text);
+        border: 1px solid var(--line);
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 24px;
+      }
+
+      .card {
+        padding: 18px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.88);
+        border: 1px solid var(--line);
+      }
+
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .footer {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 760px) {
+        .cards {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          padding: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="AceitaTempo" />
+        </div>
+
+        <div>
+          <p class="eyebrow">Extensão Chrome</p>
+          <h1>Converta preços em horas de trabalho.</h1>
+          <p class="lead">
+            AceitaTempo mostra quanto do seu tempo custa um valor enquanto você navega em grandes lojas.
+            A extensão calcula o valor da hora com base no seu salário e horas mensais e exibe o resultado
+            ao lado do preço.
+          </p>
+        </div>
+
+        <div class="actions">
+          <a class="button primary" href="./privacy-policy.html">Política de privacidade</a>
+          <a class="button secondary" href="./support.html">Suporte</a>
+        </div>
+      </section>
+
+      <section class="cards" aria-label="Resumo">
+        <article class="card">
+          <h2>Leitura rápida</h2>
+          <p>Mostra um badge curto com o tempo estimado ao lado do preço em vez de mudar sua navegação.</p>
+        </article>
+        <article class="card">
+          <h2>Controle fino</h2>
+          <p>Você pode desligar a extensão em sites externos ou desativar lojas específicas manualmente.</p>
+        </article>
+        <article class="card">
+          <h2>Privacidade</h2>
+          <p>As preferências ficam no navegador e a extensão consulta apenas a taxa USD/BRL configurada.</p>
+        </article>
+      </section>
+
+      <p class="footer">
+        Página oficial para publicação da extensão AceitaTempo no Chrome Web Store.
+      </p>
+    </main>
+  </body>
+</html>

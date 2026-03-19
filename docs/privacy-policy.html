@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AceitaTempo — Política de Privacidade</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --line: rgba(15, 23, 42, 0.12);
+        --green: #10b981;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(180deg, #f8fafc, #edf7f4);
+        color: var(--text);
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 24px 64px;
+      }
+      .panel {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--card);
+        box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+      header img {
+        width: 120px;
+        height: auto;
+      }
+      .eyebrow {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--green);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(32px, 5vw, 48px);
+        line-height: 1.05;
+      }
+      p, li {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      h2 {
+        margin: 28px 0 12px;
+        font-size: 22px;
+      }
+      ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+      .meta {
+        margin-top: 28px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 14px;
+      }
+      a {
+        color: #0f766e;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <header>
+          <img src="assets/logo.svg" alt="AceitaTempo" />
+          <div>
+            <p class="eyebrow">Privacidade</p>
+            <h1>Política de Privacidade do AceitaTempo</h1>
+          </div>
+        </header>
+
+        <p>
+          O AceitaTempo foi projetado para processar dados localmente no navegador e exibir o equivalente
+          em horas de trabalho ao lado dos preços visitados pelo usuário.
+        </p>
+
+        <h2>Dados que a extensão usa</h2>
+        <ul>
+          <li>Configurações definidas pelo usuário, como salário mensal, horas trabalhadas e moeda.</li>
+          <li>Preferências de comportamento, como substituir preços por horas e ativar/desativar sites.</li>
+          <li>Conteúdo visível das páginas visitadas para localizar preços, totais e contexto de compra.</li>
+          <li>A taxa de câmbio USD/BRL quando o modo automático está ativo.</li>
+        </ul>
+
+        <h2>Como os dados são tratados</h2>
+        <ul>
+          <li>As preferências ficam armazenadas no Chrome Storage do próprio navegador.</li>
+          <li>A extensão não mantém banco de dados próprio nem envia dados para um servidor operado pelo projeto.</li>
+          <li>O conteúdo da página é processado localmente para identificar preços e calcular o tempo correspondente.</li>
+          <li>Quando o modo automático está ativo, a extensão consulta apenas a taxa USD/BRL em <a href="https://open.er-api.com/" rel="noreferrer noopener" target="_blank">open.er-api.com</a>.</li>
+        </ul>
+
+        <h2>Compartilhamento</h2>
+        <p>
+          O AceitaTempo não vende dados, não usa analytics próprios e não compartilha conteúdo das páginas
+          com terceiros para fins comerciais.
+        </p>
+
+        <h2>Contato</h2>
+        <p>
+          Dúvidas e solicitações de suporte podem ser enviadas pela página de suporte do projeto.
+        </p>
+
+        <p class="meta">
+          Última atualização: 19 de março de 2026.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

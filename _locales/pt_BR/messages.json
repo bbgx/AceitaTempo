@@ -1,0 +1,113 @@
+{
+  "extensionName": {
+    "message": "AceitaTempo"
+  },
+  "extensionDescription": {
+    "message": "Converte valores em lojas para tempo de trabalho com base no seu salário e horas mensais."
+  },
+  "optionsEyebrow": {
+    "message": "Configuração"
+  },
+  "optionsTitle": {
+    "message": "Quanto do seu tempo custa isso"
+  },
+  "optionsSubtitle": {
+    "message": "Defina seu salário, jornada mensal e a regra de câmbio usada para transformar preços em tempo."
+  },
+  "popupEyebrow": {
+    "message": "Resumo rápido"
+  },
+  "popupTitle": {
+    "message": "AceitaTempo"
+  },
+  "popupSubtitle": {
+    "message": "Abra as opções para ajustar sua referência de custo por hora."
+  },
+  "salaryLabel": {
+    "message": "Salário mensal"
+  },
+  "salaryCurrencyLabel": {
+    "message": "Moeda do salário"
+  },
+  "monthlyHoursLabel": {
+    "message": "Horas trabalhadas por mês"
+  },
+  "exchangeModeLabel": {
+    "message": "Modo de câmbio"
+  },
+  "exchangeModeAuto": {
+    "message": "Automático"
+  },
+  "exchangeModeManual": {
+    "message": "Manual"
+  },
+  "manualRateLabel": {
+    "message": "Taxa manual USD -> BRL"
+  },
+  "manualRateHint": {
+    "message": "Use apenas quando o salário estiver em USD e você quiser fixar a conversão para BRL."
+  },
+  "replacePricesWithHoursLabel": {
+    "message": "Substituir preços por horas de trabalho"
+  },
+  "replacePricesWithHoursHint": {
+    "message": "Ative para esconder o preço e mostrar apenas o tempo necessário para comprar o produto."
+  },
+  "enableExternalSitesLabel": {
+    "message": "Ativar em sites externos"
+  },
+  "enableExternalSitesHint": {
+    "message": "Marque para permitir a extensão em páginas que não batem com a heurística interna de sites suportados."
+  },
+  "siteBlockTitle": {
+    "message": "Desativar sites manualmente"
+  },
+  "siteBlockHint": {
+    "message": "Use os switches abaixo para desligar a extensão em lojas específicas."
+  },
+  "siteBlockShowMore": {
+    "message": "Mostrar mais"
+  },
+  "siteBlockShowLess": {
+    "message": "Mostrar menos"
+  },
+  "saveButton": {
+    "message": "Salvar"
+  },
+  "resetButton": {
+    "message": "Restaurar padrão"
+  },
+  "openOptionsButton": {
+    "message": "Abrir opções"
+  },
+  "savedMessage": {
+    "message": "Configurações salvas."
+  },
+  "savedWithExchangeWarning": {
+    "message": "Configurações salvas, mas a atualização automática do câmbio falhou."
+  },
+  "resetMessage": {
+    "message": "Configurações restauradas."
+  },
+  "manualRateRequired": {
+    "message": "Informe uma taxa manual maior que zero."
+  },
+  "hourlyValueLabel": {
+    "message": "Valor por hora"
+  },
+  "hoursSummaryValue": {
+    "message": "$1 h"
+  },
+  "manualRateStatus": {
+    "message": "Manual: $1"
+  },
+  "autoRateStatus": {
+    "message": "Automático: $1 atualizado em $2"
+  },
+  "autoRateCompact": {
+    "message": "Auto: $1"
+  },
+  "autoRatePending": {
+    "message": "Automático: aguardando atualização"
+  }
+}

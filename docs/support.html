@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AceitaTempo — Suporte</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --line: rgba(15, 23, 42, 0.12);
+        --green: #10b981;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(180deg, #f8fafc, #edf7f4);
+        color: var(--text);
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 24px 64px;
+      }
+      .panel {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--card);
+        box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+      header img {
+        width: 120px;
+        height: auto;
+      }
+      .eyebrow {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--green);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(32px, 5vw, 48px);
+        line-height: 1.05;
+      }
+      p, li {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      h2 {
+        margin: 28px 0 12px;
+        font-size: 22px;
+      }
+      ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+      .faq {
+        display: grid;
+        gap: 16px;
+      }
+      .qa {
+        padding: 16px 18px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(15, 23, 42, 0.02);
+      }
+      .qa h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+      .links a {
+        color: #0f766e;
+      }
+      .meta {
+        margin-top: 28px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <header>
+          <img src="assets/logo.svg" alt="AceitaTempo" />
+          <div>
+            <p class="eyebrow">Suporte</p>
+            <h1>Precisa de ajuda com o AceitaTempo?</h1>
+          </div>
+        </header>
+
+        <p>
+          A forma mais rápida de falar com o projeto é abrir uma issue no GitHub. Se você encontrou um site
+          que não está sendo detectado, envie a URL, um print e, se possível, o HTML do trecho do preço.
+        </p>
+
+        <div class="faq">
+          <article class="qa">
+            <h3>Por que não aparece em um site específico?</h3>
+            <p>
+              Alguns sites têm DOMs dinâmicos ou variações de layout. O recurso pode depender de heurística,
+              então um print do trecho do preço ajuda bastante.
+            </p>
+          </article>
+          <article class="qa">
+            <h3>Como desativo em um site?</h3>
+            <p>
+              Abra as opções, deixe o switch de sites externos do jeito desejado e desmarque o site na lista
+              de desativação manual.
+            </p>
+          </article>
+          <article class="qa">
+            <h3>Onde ficam as configurações?</h3>
+            <p>
+              As preferências ficam salvas no Chrome Storage do navegador. Elas podem sincronizar entre
+              aparelhos, dependendo da configuração da conta Chrome.
+            </p>
+          </article>
+        </div>
+
+        <h2>Links úteis</h2>
+        <ul class="links">
+          <li><a href="https://github.com/Ddiidev/AceitaTempo" rel="noreferrer noopener" target="_blank">Repositório no GitHub</a></li>
+          <li><a href="https://github.com/Ddiidev/AceitaTempo/issues" rel="noreferrer noopener" target="_blank">Abrir issue de suporte</a></li>
+          <li><a href="./privacy-policy.html">Política de privacidade</a></li>
+        </ul>
+
+        <p class="meta">
+          Se o problema for um bug visual, envie também a página exata e a resolução da janela.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
